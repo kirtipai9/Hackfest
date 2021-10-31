@@ -1,0 +1,321 @@
+<html>
+	<head>
+		<style>
+			*
+{
+	margin:0px;
+	padding:0px;
+}
+
+#div
+{
+	background-color:#283747;
+	height:100px;
+	width:100%;
+	poistion:absolute;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+#logo
+{
+	height:100px;
+	width:100px;
+	position:absolute;
+}
+
+#heading1
+{
+	font-size:40px;
+	margin-top:25px;
+	margin-left:125px;
+	position:absolute;
+	font-family:Aduren;
+	font-weight:bold;
+	color:white;
+}
+
+#heading2
+{
+	font-size:20px;
+	margin-top:70px;
+	margin-left:125px;
+	position:absolute;
+	font-family:Aduren;
+	font-weight:bold;
+	position:absolute;
+	color:white;
+}
+
+#login
+{
+	height:40px;
+	width:80px;
+	background-color:#2e4053;
+	margin-left:82%;
+	margin-top:40px;
+	position:absolute;
+	color:white;
+	font-family:Batavin;
+	font-size:20px;
+	border:none;	
+	cursor:pointer;
+}
+
+#signup
+{
+	height:40px;
+	width:80px;
+	background-color:#2e4053;
+	margin-left:90%;
+	margin-top:40px;
+	position:absolute;
+	color:white;
+	font-family:Batavin;
+	font-size:20px;
+	border:none;	
+	cursor:pointer;
+}
+
+#menu
+{
+	height:557px;
+	width:15px;
+	background-color:#1c2833;
+	position:absolute;
+	display:inline-block;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+i {
+	border: solid white;
+	border-width: 0 3px 3px 0;
+	display: inline-block;
+	margin-top:278.5px;
+	padding: 3px;
+	position:absolute;
+}
+
+#right 
+{
+	transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+    position:absolute;
+}
+#under-menu
+{
+	display: none;
+	position: absolute;
+	background-color:#1c2833;
+	width: 190px;
+	height:557px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	position:absolute;
+}
+#menu:hover #under-menu
+{
+	display:block;
+	position:absolute;
+}
+
+#home
+{
+	text-decoration:none;
+	font-size:30px;
+	font-family:Adventure Subtitles;
+	color:white;
+	margin-top:30px;
+	margin-left:30px;
+	position:absolute;
+}
+#home:hover
+{
+	text-decoration:none;
+	font-size:30px;
+	font-family:Adventure Subtitles;
+	color:#aeb6bf;
+	margin-top:30px;
+	margin-left:30px;
+	position:absolute;
+}
+
+#gallery
+{
+	text-decoration:none;
+	font-size:30px;
+	font-family:Adventure Subtitles;
+	color:white;
+	margin-top:90px;
+	margin-left:30px;
+	position:absolute;
+}
+#gallery:hover
+{
+	text-decoration:none;
+	font-size:30px;
+	font-family:Adventure Subtitles;
+	color:#aeb6bf;
+	margin-top:90px;
+	margin-left:30px;
+	position:absolute;
+}
+
+#Faculty
+{
+	text-decoration:none;
+	font-size:30px;
+	font-family:Adventure Subtitles;
+	color:white;
+	margin-top:150px;
+	margin-left:30px;
+	display: inline-block;
+	position:absolute;
+	width:160px;
+}
+#Faculty:hover
+{
+	text-decoration:none;
+	font-size:30px;
+	font-family:Adventure Subtitles;
+	color:#aeb6bf;
+	margin-top:150px;
+	margin-left:30px;
+	position:absolute;
+}
+#faculty-menu
+{
+  position: relative;
+  display: inline-block;
+}
+#faculty-under-menu
+{
+  display: none;
+  position: absolute;
+  background-color:#1c2833;
+  width: 130px;
+  height:215px;
+  margin-left:190px;
+  margin-top:60px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  font-size:20px;
+  text-decoration:none;
+  font-family:Adventure Subtitles;
+}
+#faculty-menu:hover #faculty-under-menu
+{
+  display: block;
+}
+#field
+{
+	margin-top:-15px;
+	position:absolute;
+	text-decoration:none;
+	margin-left:10px;
+	color:white;
+}
+
+#result
+{
+	text-decoration:none;
+	font-size:30px;
+	font-family:Adventure Subtitles;
+	color:white;
+	margin-top:220px;
+	margin-left:30px;
+	position:absolute;
+}
+#result:hover
+{
+	text-decoration:none;
+	font-size:30px;
+	font-family:Adventure Subtitles;
+	color:#aeb6bf;
+	margin-top:220px;
+	margin-left:30px;
+	position:absolute;
+}
+
+#about
+{
+	text-decoration:none;
+	font-size:30px;
+	font-family:Adventure Subtitles;
+	color:white;
+	margin-top:270px;
+	margin-left:30px;
+	position:absolute;
+}
+#about:hover
+{
+	text-decoration:none;
+	font-size:30px;
+	font-family:Adventure Subtitles;
+	color:#aeb6bf;
+	margin-top:270px;
+	margin-left:30px;
+	position:absolute;
+}
+
+#contact
+{
+	text-decoration:none;
+	font-size:30px;
+	font-family:Adventure Subtitles;
+	color:white;
+	margin-top:320px;
+	margin-left:30px;
+	position:absolute;
+}
+#contact:hover
+{
+	text-decoration:none;
+	font-size:30px;
+	font-family:Adventure Subtitles;
+	color:#aeb6bf;
+	margin-top:320px;
+	margin-left:30px;
+	position:absolute;
+}
+#frame {
+   position: fixed;
+   left: 0;
+   bottom:0;
+   width: 100%;
+   text-align: center;
+}
+		</style>
+	</head>
+	<body>
+		<form="">
+			<div id="div">
+				<img src ="images\log.png" id="logo" alt="Institution LOGO">
+				<label id="heading1">Institute Name</label>
+				<label id="heading2">Address</label>
+				<input type="button" value="Login" id="login">
+				<a href="signup.html"><input type="button" value="Signup" id="signup"></a>		
+			</div>
+			<div id="menu">
+				<i id="right"></i>
+				<div id="under-menu">
+					</br><a id="home" href="#">Home</a>
+					</br><a id="gallery" href="#">Gallery</a>	
+					
+					<div id="faculty-menu">
+						</br><a id="faculty" href="#">Faculty</a>
+						<div id="faculty-under-menu">
+							<br><a id="field" href="#">CSE</a>
+							<br><a id="field" href="#">Mechanical</a>
+							<br><a id="field" href="#">Civil</a>
+							<br><a id="field" href="#">Electronics</a>
+							<br><a id="field" href="#">TNT</a>
+							<br><a id="field" href="#">MOM</a>
+							<br><a id="field" href="#">Fashion</a></br>
+						</div>
+					</div>
+					
+					</br><a id="result" href="#">Result</a>
+					</br><a id="about" href="#">About</a>
+					</br><a id="contact" href="#">Contact</a>
+				</div>
+			</div>
+</form>
+</html>
