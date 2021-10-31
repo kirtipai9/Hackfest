@@ -1,0 +1,54 @@
+<html>
+	<body>
+		<form action="resume.html" target="_self">
+		<fieldset>
+		<legend> Personal information</legend>
+			first name<br>
+			<input type=""text" name="firstname" autofocus required>
+			<br>
+			Last name <br>
+			<input type="text" name="lastname"required><br><br>
+			Gender<br>
+			<input type="radio" name="gender" value="male">MALE<br>
+			<input type="radio" name="gender" value="female">FEMALE<br><br>
+			HOBBY<br>
+			<input type="checkbox" name= "hobby" value="cricket">Cricket
+			<input type="checkbox" name= "hobby" value="painting">painting
+			<input type="checkbox" name= "hobby" value="drawing">Drawing
+			<input type="checkbox" name= "hobby" value="computer">Computer<br><br>
+			STATE<br>
+			<input list="state" name="state"required>
+			<datalist id="state" >
+			<option value ="Madhya pardesh">
+			<option value ="maharastra">
+			<option value ="andra pradesh">
+			</datalist><br><br>
+			DOB<br>
+			<input type ="date" name ="dob" min="1990-12-31"required><br><br>
+			Quaflication<br>
+			<select name="quaflication"required>
+			<option value="SSC">SSC</option>
+			<option value ="HSC">HSC</option>
+			<option value ="Dipolma">Dipolma</option>
+			<option value ="Engineering">Engineering</option>
+			</select><br><br>
+			Photo<br>
+			<input type ="file" name ="photo">
+			</fieldset>
+			
+			<fieldset>
+			<legend>LOGIN INFO</legend>
+			Email<br>
+			<input type ="email" name = "email"required><br>
+			UserName<br>
+			<input type ="username" name="username"required><br>
+			Password<br>
+			<input type ="password" name="password"required><br>
+			</fieldset>
+			
+			
+			<input type="submit" name="submit">
+			<input type ="reset">
+		</form>
+	</body>	
+</html>
