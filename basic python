@@ -1,13 +1,15 @@
+# Basic Python program
+
+# Print a message
+print("Hello, World!")
+
+# Take input from user
+name = input("Enter your name: ")
+print("Hello,", name, "! Welcome to Python programming.")
+
+# Simple math operation
 a = 10
-b = 20
-c = 15
-
-if a >= b and a >= c:
-    largest = a
-    elif b >= a and b >= c:
-        largest = b
-        else:
-            largest = c
-
-            print("The largest number is", largest)
+b = 5
+sum = a + b
+print("The sum of", a, "and", b, "is", sum)
             
